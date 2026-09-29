@@ -1,11 +1,11 @@
 class Bnw < Formula
   desc "Local-first peer-to-peer network for people, agents, and AI capabilities"
   homepage "https://github.com/cellmobs/bnw-releases"
-  license any_of: ["MIT", "Apache-2.0"]
-
   # The universal macOS build; Linux replaces it with its own below.
   url "https://github.com/cellmobs/bnw-releases/releases/download/v0.7.0/bnw-0.7.0-universal-apple-darwin.tar.gz"
   sha256 "a51f358f44066ec9098535a89442c3b2a9fa82172a86cfda5423f7cce8861ef9"
+  license any_of: ["MIT", "Apache-2.0"]
+
 
   on_linux do
     on_intel do
