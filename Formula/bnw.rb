@@ -6,7 +6,6 @@ class Bnw < Formula
   sha256 "a51f358f44066ec9098535a89442c3b2a9fa82172a86cfda5423f7cce8861ef9"
   license any_of: ["MIT", "Apache-2.0"]
 
-
   on_linux do
     on_intel do
       url "https://github.com/cellmobs/bnw-releases/releases/download/v0.7.0/bnw-0.7.0-x86_64-unknown-linux-musl.tar.gz"
