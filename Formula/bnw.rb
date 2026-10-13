@@ -2,18 +2,18 @@ class Bnw < Formula
   desc "Local-first peer-to-peer network for people, agents, and AI capabilities"
   homepage "https://github.com/cellmobs/bnw-releases"
   # The universal macOS build; Linux replaces it with its own below.
-  url "https://github.com/cellmobs/bnw-releases/releases/download/v0.7.13/bnw-0.7.13-universal-apple-darwin.tar.gz"
-  sha256 "4d5e1b4d21cdc6aae02b36906d7835bd6927d4e223caa76556eb2e780cb0a95e"
+  url "https://github.com/cellmobs/bnw-releases/releases/download/v0.7.14/bnw-0.7.14-universal-apple-darwin.tar.gz"
+  sha256 "27e7d3640596893be87670348433448bff2ab65eeea79f2d43732089f5669630"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_linux do
     on_intel do
-      url "https://github.com/cellmobs/bnw-releases/releases/download/v0.7.13/bnw-0.7.13-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "e40d2e089694b68f3cba00de7381370fcaeba4e6a8da50261e9a82f2a0ef4226"
+      url "https://github.com/cellmobs/bnw-releases/releases/download/v0.7.14/bnw-0.7.14-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "ea80feb07bee1bd73a5c7fbace38c062e856decb0fcb5b0a2ffafdc014ab312a"
     end
     on_arm do
-      url "https://github.com/cellmobs/bnw-releases/releases/download/v0.7.13/bnw-0.7.13-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "c30f4b902f38997f67a5cf4f5c94b185b47b34bdbd3229cf5403275015fe0b76"
+      url "https://github.com/cellmobs/bnw-releases/releases/download/v0.7.14/bnw-0.7.14-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "22f5897a891c531a2977b92415ee8c9e383018d6de1c5235a0eba1aebb3c5eaa"
     end
   end
 
